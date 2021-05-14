@@ -114,9 +114,6 @@
 
   .icon {
     cursor: pointer;
-    width: 24px;
-    height: 24px;
-    fill: hsl(223, 87%, 63%);
   }
 
   .icon:hover, 
