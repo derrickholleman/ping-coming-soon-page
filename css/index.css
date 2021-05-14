@@ -1,0 +1,150 @@
+  body {
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .header-container {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .logo {
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+  }
+
+  .hero-title {
+    margin-bottom: .85rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+  }
+  .soon {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+  }
+
+  .hero-p {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .email { /* dont set width to 100%!!!! */
+    padding: 1rem;
+    border-radius: 40px;
+    border: 1.5px solid rgba(150, 150, 150, .5);
+    outline: none;
+    width: 350px;
+  }
+  input {
+    margin: 0 1rem;
+  }
+  input:hover {
+    background-color: rgba(75, 75, 75, 0.3);
+  }
+
+  .email::placeholder {
+    color: rgba(150, 150, 150, .9);
+  }
+  .email:invalid {
+    border-color: hsl(354, 100%, 66%);
+  }
+  .email:valid:focus { /* only active while typing */
+    border-color: hsl(130, 100%, 66%);
+  }
+
+  .notify {
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: 0px 2px hsl(223, 56%, 54%);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .notify:hover, 
+  .notfiy:focus, 
+  .notify:active {
+    background-color: hsl(223, 50%, 72%);
+    box-shadow: none;
+  }
+
+/* PHOTO SECTION */ 
+
+  .section-container {
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    place-items: center center;
+    margin-bottom: 7rem;
+  }
+
+/* FOOTER CONTAINER */ 
+
+  .footer-container {
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  .icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    fill: hsl(223, 87%, 63%);
+  }
+
+  .icon:hover, 
+  .icon:focus, 
+  .icon:active {
+    fill: hsl(223, 50%, 72%);
+  }
+  
+  .copyright {
+    font-size: .75rem;
+    color: gray;
+  }
+
+/* FIXED NAV */ 
+
+.fixed-nav {
+  display: none; /* hides fixed nav on desktop */
+}
+.sticky {
+  position: fixed;
+  bottom: 0; /* puts nav at bottom of page */
+  width: 100%; /* fills whole bottom of screen */
+}
+
+.nav-item:hover svg, .nav-item:hover, 
+.nav-item:focus svg, .nav-item:focus, 
+.nav-item:active svg, .nav-item:active {
+  fill: hsl(223, 43%, 58%);
+  color: hsl(223, 43%, 58%);
+}
+/* --------- */

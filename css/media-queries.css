@@ -1,0 +1,50 @@
+@media screen and (max-width: 374px) {
+    .email {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fixed-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: black;
+      min-width: 100%;
+      height: 50px;
+      opacity: .85;
+    }
+    .nav-item {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: .7rem;
+      cursor: pointer;
+      height: 100%; /* sets height to 100% of the .mobile-nav container */
+    }
+  }
+/* --------------------- */
+/* SWITCH TO MOBILE VIEW */
+/* --------------------- */
+@media screen and (max-width: 583px) {
+    .hero-title {
+        text-align: center;
+        margin: 1rem;
+    }
+    .hero-p {
+        text-align: center;
+        margin: 1rem;
+    }
+    .cta-section {
+        flex-direction: column;
+        height: 8.5rem;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+/* --------------------- */
+/* SWITCH TO MOBILE VIEW */
+/* --------------------- */
