@@ -39,7 +39,7 @@
     align-items: center;
     justify-content: space-around;
   }
-  .email { /* dont set width to 100%!!!! */
+  .email { 
     padding: 1rem;
     border-radius: 40px;
     border: 1.5px solid rgba(150, 150, 150, .5);
