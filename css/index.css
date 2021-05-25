@@ -116,9 +116,9 @@
     cursor: pointer;
   }
 
-  .icon:hover, 
-  .icon:focus, 
-  .icon:active {
+  .icon:hover path, 
+  .icon:focus-within path, 
+  .icon:active path {
     fill: hsl(223, 50%, 72%);
   }
   
